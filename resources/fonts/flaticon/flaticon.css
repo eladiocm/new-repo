@@ -1,0 +1,740 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?ed2d4dc7bc8711dce7be5bb5c0b6d364") format("truetype"),
+url("./flaticon.woff?ed2d4dc7bc8711dce7be5bb5c0b6d364") format("woff"),
+url("./flaticon.woff2?ed2d4dc7bc8711dce7be5bb5c0b6d364") format("woff2"),
+url("./flaticon.eot?ed2d4dc7bc8711dce7be5bb5c0b6d364#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ed2d4dc7bc8711dce7be5bb5c0b6d364#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-user:before {
+    content: "\f101";
+}
+.flaticon-copy:before {
+    content: "\f102";
+}
+.flaticon-email:before {
+    content: "\f103";
+}
+.flaticon-calendar:before {
+    content: "\f104";
+}
+.flaticon-folder:before {
+    content: "\f105";
+}
+.flaticon-bar-chart:before {
+    content: "\f106";
+}
+.flaticon-user-1:before {
+    content: "\f107";
+}
+.flaticon-coupon:before {
+    content: "\f108";
+}
+.flaticon-shopping-list:before {
+    content: "\f109";
+}
+.flaticon-dollar:before {
+    content: "\f10a";
+}
+.flaticon-id-card:before {
+    content: "\f10b";
+}
+.flaticon-settings:before {
+    content: "\f10c";
+}
+.flaticon-checked:before {
+    content: "\f10d";
+}
+.flaticon-cancel:before {
+    content: "\f10e";
+}
+.flaticon-visibility:before {
+    content: "\f10f";
+}
+.flaticon-email-1:before {
+    content: "\f110";
+}
+.flaticon-pdf-file:before {
+    content: "\f111";
+}
+.flaticon-list:before {
+    content: "\f112";
+}
+.flaticon-customer:before {
+    content: "\f113";
+}
+.flaticon-money:before {
+    content: "\f114";
+}
+.flaticon-audio:before {
+    content: "\f115";
+}
+.flaticon-analitica:before {
+    content: "\f116";
+}
+.flaticon-los-usuarios:before {
+    content: "\f117";
+}
+.flaticon-configuraciones:before {
+    content: "\f118";
+}
+.flaticon-dolar:before {
+    content: "\f119";
+}
+.flaticon-yelmo:before {
+    content: "\f11a";
+}
+.flaticon-carro-de-la-compra:before {
+    content: "\f11b";
+}
+.flaticon-descuento:before {
+    content: "\f11c";
+}
+.flaticon-rebaja:before {
+    content: "\f11d";
+}
+.flaticon-casco:before {
+    content: "\f11e";
+}
+.flaticon-tienda:before {
+    content: "\f11f";
+}
+.flaticon-tienda-1:before {
+    content: "\f120";
+}
+.flaticon-campana:before {
+    content: "\f121";
+}
+.flaticon-pluma:before {
+    content: "\f122";
+}
+.flaticon-ver:before {
+    content: "\f123";
+}
+.flaticon-borrar:before {
+    content: "\f124";
+}
+.flaticon-tienda-2:before {
+    content: "\f125";
+}
+.flaticon-cancelar:before {
+    content: "\f126";
+}
+.flaticon-cuadrados:before {
+    content: "\f127";
+}
+.flaticon-cuatro-cuadrados:before {
+    content: "\f128";
+}
+.flaticon-galon-izquierdo:before {
+    content: "\f129";
+}
+.flaticon-comprobar-1:before {
+    content: "\f12a";
+}
+.flaticon-agregar-usuario:before {
+    content: "\f12b";
+}
+.flaticon-delivery:before {
+    content: "\f12c";
+}
+.flaticon-checklist:before {
+    content: "\f12d";
+}
+.flaticon-check-mark:before {
+    content: "\f12e";
+}
+.flaticon-clipboard:before {
+    content: "\f12f";
+}
+.flaticon-user-2:before {
+    content: "\f130";
+}
+.flaticon-affirmative-check-mark:before {
+    content: "\f131";
+}
+.flaticon-checkmark-verify-interface-symbol-button:before {
+    content: "\f132";
+}
+.flaticon-check:before {
+    content: "\f133";
+}
+.flaticon-check-1:before {
+    content: "\f134";
+}
+.flaticon-mas:before {
+    content: "\f135";
+}
+.flaticon-mas-1:before {
+    content: "\f136";
+}
+.flaticon-anadir:before {
+    content: "\f137";
+}
+.flaticon-menos:before {
+    content: "\f138";
+}
+.flaticon-menos-1:before {
+    content: "\f139";
+}
+.flaticon-menos-2:before {
+    content: "\f13a";
+}
+.flaticon-menos-3:before {
+    content: "\f13b";
+}
+.flaticon-user-3:before {
+    content: "\f13c";
+}
+.flaticon-smartphone:before {
+    content: "\f13d";
+}
+.flaticon-envelope:before {
+    content: "\f13e";
+}
+.flaticon-pencil:before {
+    content: "\f13f";
+}
+.flaticon-group:before {
+    content: "\f140";
+}
+.flaticon-pencil-1:before {
+    content: "\f141";
+}
+.flaticon-pencil-2:before {
+    content: "\f142";
+}
+.flaticon-lapiz-de-color:before {
+    content: "\f143";
+}
+.flaticon-cerrar:before {
+    content: "\f144";
+}
+.flaticon-cancelar-1:before {
+    content: "\f145";
+}
+.flaticon-correo-electronico:before {
+    content: "\f146";
+}
+.flaticon-logo-de-facebook:before {
+    content: "\f147";
+}
+.flaticon-instagram:before {
+    content: "\f148";
+}
+.flaticon-gorjeo:before {
+    content: "\f149";
+}
+.flaticon-youtube:before {
+    content: "\f14a";
+}
+.flaticon-down-chevron:before {
+    content: "\f14b";
+}
+.flaticon-add-button:before {
+    content: "\f14c";
+}
+.flaticon-pause:before {
+    content: "\f14d";
+}
+.flaticon-edit:before {
+    content: "\f14e";
+}
+.flaticon-play:before {
+    content: "\f14f";
+}
+.flaticon-check-2:before {
+    content: "\f150";
+}
+.flaticon-music-player:before {
+    content: "\f151";
+}
+.flaticon-music-player-1:before {
+    content: "\f152";
+}
+.flaticon-music-player-2:before {
+    content: "\f153";
+}
+.flaticon-oculto:before {
+    content: "\f154";
+}
+.flaticon-whatsapp:before {
+    content: "\f155";
+}
+.flaticon-lapiz:before {
+    content: "\f156";
+}
+.flaticon-cancelar-2:before {
+    content: "\f157";
+}
+.flaticon-llave-inglesa:before {
+    content: "\f158";
+}
+.flaticon-prohibido:before {
+    content: "\f159";
+}
+.flaticon-bolsa-de-dinero:before {
+    content: "\f15a";
+}
+.flaticon-compras:before {
+    content: "\f15b";
+}
+.flaticon-megafono:before {
+    content: "\f15c";
+}
+.flaticon-grafico-de-barras:before {
+    content: "\f15d";
+}
+.flaticon-imagen:before {
+    content: "\f15e";
+}
+.flaticon-imagen-1:before {
+    content: "\f15f";
+}
+.flaticon-factura:before {
+    content: "\f160";
+}
+.flaticon-ajustar:before {
+    content: "\f161";
+}
+.flaticon-ayuda:before {
+    content: "\f162";
+}
+.flaticon-cerrar-1:before {
+    content: "\f163";
+}
+.flaticon-circulo:before {
+    content: "\f164";
+}
+.flaticon-proximo:before {
+    content: "\f165";
+}
+.flaticon-atras:before {
+    content: "\f166";
+}
+.flaticon-grupo:before {
+    content: "\f167";
+}
+.flaticon-lista:before {
+    content: "\f168";
+}
+.flaticon-etiqueta:before {
+    content: "\f169";
+}
+.flaticon-etiqueta-1:before {
+    content: "\f16a";
+}
+.flaticon-imac:before {
+    content: "\f16b";
+}
+.flaticon-big-data:before {
+    content: "\f16c";
+}
+.flaticon-lista-1:before {
+    content: "\f16d";
+}
+.flaticon-sensible:before {
+    content: "\f16e";
+}
+.flaticon-colegio:before {
+    content: "\f16f";
+}
+.flaticon-pregunta:before {
+    content: "\f170";
+}
+.flaticon-casa:before {
+    content: "\f171";
+}
+.flaticon-llamada:before {
+    content: "\f172";
+}
+.flaticon-email-2:before {
+    content: "\f173";
+}
+.flaticon-mapas-y-banderas:before {
+    content: "\f174";
+}
+.flaticon-logotipo-de-youtube:before {
+    content: "\f175";
+}
+.flaticon-cuenta:before {
+    content: "\f176";
+}
+.flaticon-portapapeles:before {
+    content: "\f177";
+}
+.flaticon-icon-953818:before {
+    content: "\f178";
+}
+.flaticon-actualizar:before {
+    content: "\f179";
+}
+.flaticon-cancelar-3:before {
+    content: "\f17a";
+}
+.flaticon-boton-de-eliminacion-del-contenedor-de-basura:before {
+    content: "\f17b";
+}
+.flaticon-flecha-de-actualizacion:before {
+    content: "\f17c";
+}
+.flaticon-telegram:before {
+    content: "\f17d";
+}
+.flaticon-html:before {
+    content: "\f17e";
+}
+.flaticon-documento-html:before {
+    content: "\f17f";
+}
+.flaticon-html-1:before {
+    content: "\f180";
+}
+.flaticon-html-2:before {
+    content: "\f181";
+}
+.flaticon-pdf:before {
+    content: "\f182";
+}
+.flaticon-pdf-1:before {
+    content: "\f183";
+}
+.flaticon-pdf-2:before {
+    content: "\f184";
+}
+.flaticon-html-3:before {
+    content: "\f185";
+}
+.flaticon-html-4:before {
+    content: "\f186";
+}
+.flaticon-archivo-html-con-simbolo-de-codigo:before {
+    content: "\f187";
+}
+.flaticon-estadistica:before {
+    content: "\f188";
+}
+.flaticon-archivo-de-google-drive:before {
+    content: "\f189";
+}
+.flaticon-archivo:before {
+    content: "\f18a";
+}
+.flaticon-cartera:before {
+    content: "\f18b";
+}
+.flaticon-expediente:before {
+    content: "\f18c";
+}
+.flaticon-registro:before {
+    content: "\f18d";
+}
+.flaticon-infografia:before {
+    content: "\f18e";
+}
+.flaticon-portapapeles-1:before {
+    content: "\f18f";
+}
+.flaticon-copiar:before {
+    content: "\f190";
+}
+.flaticon-camion-de-reparto:before {
+    content: "\f191";
+}
+.flaticon-estante-para-libros:before {
+    content: "\f192";
+}
+.flaticon-libros:before {
+    content: "\f193";
+}
+.flaticon-configuraciones-1:before {
+    content: "\f194";
+}
+.flaticon-comprobado:before {
+    content: "\f195";
+}
+.flaticon-carpeta:before {
+    content: "\f196";
+}
+.flaticon-cuadricula:before {
+    content: "\f197";
+}
+.flaticon-usuarios-de-perfil-de-grupo:before {
+    content: "\f198";
+}
+.flaticon-bolsa-de-dinero-de-dolares:before {
+    content: "\f199";
+}
+.flaticon-boton-de-encendido-apagado:before {
+    content: "\f19a";
+}
+.flaticon-caja:before {
+    content: "\f19b";
+}
+.flaticon-imagen-2:before {
+    content: "\f19c";
+}
+.flaticon-imagen-3:before {
+    content: "\f19d";
+}
+.flaticon-lista-2:before {
+    content: "\f19e";
+}
+.flaticon-login:before {
+    content: "\f19f";
+}
+.flaticon-agregar-usuario-1:before {
+    content: "\f1a0";
+}
+.flaticon-iniciar-sesion:before {
+    content: "\f1a1";
+}
+.flaticon-entrar:before {
+    content: "\f1a2";
+}
+.flaticon-boton-de-simbolo-mas:before {
+    content: "\f1a3";
+}
+.flaticon-mas-2:before {
+    content: "\f1a4";
+}
+.flaticon-anadir-1:before {
+    content: "\f1a5";
+}
+.flaticon-mas-3:before {
+    content: "\f1a6";
+}
+.flaticon-logout:before {
+    content: "\f1a7";
+}
+.flaticon-salida:before {
+    content: "\f1a8";
+}
+.flaticon-cerrar-sesion:before {
+    content: "\f1a9";
+}
+.flaticon-entrar-1:before {
+    content: "\f1aa";
+}
+.flaticon-logout-1:before {
+    content: "\f1ab";
+}
+.flaticon-agregar-puntero:before {
+    content: "\f1ac";
+}
+.flaticon-eliminar-usuario:before {
+    content: "\f1ad";
+}
+.flaticon-editar:before {
+    content: "\f1ae";
+}
+.flaticon-atras-1:before {
+    content: "\f1af";
+}
+.flaticon-enviar:before {
+    content: "\f1b0";
+}
+.flaticon-email-3:before {
+    content: "\f1b1";
+}
+.flaticon-enviar-1:before {
+    content: "\f1b2";
+}
+.flaticon-lapicera:before {
+    content: "\f1b3";
+}
+.flaticon-video:before {
+    content: "\f1b4";
+}
+.flaticon-me-gusta:before {
+    content: "\f1b5";
+}
+.flaticon-me-gusta-1:before {
+    content: "\f1b6";
+}
+.flaticon-campana-1:before {
+    content: "\f1b7";
+}
+.flaticon-comprobado-1:before {
+    content: "\f1b8";
+}
+.flaticon-man:before {
+    content: "\f1b9";
+}
+.flaticon-negocios-y-comercio:before {
+    content: "\f1ba";
+}
+.flaticon-negocios-y-comercio-1:before {
+    content: "\f1bb";
+}
+.flaticon-hombre:before {
+    content: "\f1bc";
+}
+.flaticon-boleto:before {
+    content: "\f1bd";
+}
+.flaticon-carrito-de-compras:before {
+    content: "\f1be";
+}
+.flaticon-cuaderno-de-contactos:before {
+    content: "\f1bf";
+}
+.flaticon-sobre:before {
+    content: "\f1c0";
+}
+.flaticon-comunicaciones:before {
+    content: "\f1c1";
+}
+.flaticon-candado:before {
+    content: "\f1c2";
+}
+.flaticon-notificacion:before {
+    content: "\f1c3";
+}
+.flaticon-sobre-1:before {
+    content: "\f1c4";
+}
+.flaticon-sitio:before {
+    content: "\f1c5";
+}
+.flaticon-camion:before {
+    content: "\f1c6";
+}
+.flaticon-papel:before {
+    content: "\f1c7";
+}
+.flaticon-informacion:before {
+    content: "\f1c8";
+}
+.flaticon-avatar:before {
+    content: "\f1c9";
+}
+.flaticon-equipo:before {
+    content: "\f1ca";
+}
+.flaticon-temporizador:before {
+    content: "\f1cb";
+}
+.flaticon-tiempo:before {
+    content: "\f1cc";
+}
+.flaticon-ver-1:before {
+    content: "\f1cd";
+}
+.flaticon-grupo-de-usuario:before {
+    content: "\f1ce";
+}
+.flaticon-megafono-1:before {
+    content: "\f1cf";
+}
+.flaticon-tarjeta-de-identificacion:before {
+    content: "\f1d0";
+}
+.flaticon-tick-mark:before {
+    content: "\f1d1";
+}
+.flaticon-clipboard-1:before {
+    content: "\f1d2";
+}
+.flaticon-shopping-list-1:before {
+    content: "\f1d3";
+}
+.flaticon-velocimetro:before {
+    content: "\f1d4";
+}
+.flaticon-medidor-de-velocidad:before {
+    content: "\f1d5";
+}
+.flaticon-lista-3:before {
+    content: "\f1d6";
+}
+.flaticon-simbolo-de-moneda-dolar:before {
+    content: "\f1d7";
+}
+.flaticon-simbolo-de-dolar:before {
+    content: "\f1d8";
+}
+.flaticon-icon-10:before {
+    content: "\f1d9";
+}
+.flaticon-icon-13:before {
+    content: "\f1da";
+}
+.flaticon-icon-14:before {
+    content: "\f1db";
+}
+.flaticon-icon-15:before {
+    content: "\f1dc";
+}
+.flaticon-icon-16:before {
+    content: "\f1dd";
+}
+.flaticon-icon-17:before {
+    content: "\f1de";
+}
+.flaticon-combined-shape:before {
+    content: "\f1df";
+}
+.flaticon-tarjeta-de-credito:before {
+    content: "\f1e0";
+}
+.flaticon-icon-18:before {
+    content: "\f1e1";
+}
+.flaticon-papel-escrito:before {
+    content: "\f1e2";
+}
+.flaticon-icon-19:before {
+    content: "\f1e3";
+}
+.flaticon-icon-20:before {
+    content: "\f1e4";
+}
+.flaticon-icon-21:before {
+    content: "\f1e5";
+}
+.flaticon-icon-22:before {
+    content: "\f1e6";
+}
+.flaticon-icon-23:before {
+    content: "\f1e7";
+}
+.flaticon-icon-24:before {
+    content: "\f1e8";
+}
+.flaticon-icon-25:before {
+    content: "\f1e9";
+}
+.flaticon-icon-26:before {
+    content: "\f1ea";
+}
+.flaticon-icon-27:before {
+    content: "\f1eb";
+}
+.flaticon-icon-28:before {
+    content: "\f1ec";
+}
+.flaticon-icon-29:before {
+    content: "\f1ed";
+}
+.flaticon-icon-30:before {
+    content: "\f1ee";
+}
+.flaticon-icon-31:before {
+    content: "\f1ef";
+}
+.flaticon-icon-32:before {
+    content: "\f1f0";
+}

@@ -1,0 +1,141 @@
+@import "../../../../sass/variables";
+
+
+.tableTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 5px 40px;
+    h4{
+        color: #fff;
+    }
+}
+
+.tableSearch{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 44px;
+    font-size: 15px;
+    padding-left: 10px;
+    input{
+        border: none;
+        width: 100%;
+        outline: none;
+    }
+}
+.tableInfo{
+    padding: 30px;
+    background-color: #1a1a40;
+    border-radius: 23px;
+    color: black;
+    min-width: 820px;
+   
+}
+.tableEmergencia{
+    font-family: Arial, Helvetica, sans-serif;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+    tbody{
+        background-color: #fff;
+    }
+}
+
+.tableHead:first-child th:first-child{
+    border-top-left-radius: 23px;
+}
+.tableHead:first-child th:last-child{
+    border-top-right-radius: 23px;
+}
+
+.tableHead{
+    color: #fff;
+    tr{
+
+        th{
+            background-color: #00b4d8;
+            padding: 11px;
+            font-size: 16px;
+        }
+    }
+    
+}
+td,th{
+    border-bottom:1px #dddddd solid;
+    text-align: center;
+    padding: 8px;
+}
+
+.rowRed{
+    border: 1px solid #e3022f;
+}
+.striped:nth-child(even){
+    background-color: #dddddd;
+}
+.hover:hover{
+    background-color: #61dafb;
+}
+.tablePagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-top: 20px;
+}
+.tableCantPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    svg{
+        cursor: pointer;
+    }
+}
+
+.number-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.page-active{
+    background-color: #00b4d8;
+    color: #fff;
+}
+.page-no-active{
+    background-color: #fff;
+    color: black;
+}
+
+
+.status{
+    font-size: 12px;
+    width: 109px;
+    min-width: 90px;
+    height: 30px;
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.entrante{
+    background-color: #e3022f;
+}
+.en-proceso{
+    background-color: #0093b0;
+}
+.cercana{
+    background-color: #f0c20c;
+}
+.completadas{
+    background-color: #35ab6a;
+}

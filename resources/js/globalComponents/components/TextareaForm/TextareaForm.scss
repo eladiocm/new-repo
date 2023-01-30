@@ -1,0 +1,16 @@
+.textAreaForm{
+    display: flex;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid #dde1eb;
+    textarea {
+        resize: none;
+        border: none;
+        width: 100%;
+        outline: none;
+      }
+      svg{
+        margin-top: 5px;
+      }
+}

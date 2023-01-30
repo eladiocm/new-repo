@@ -1,0 +1,56 @@
+@import "../../../../sass/variables";
+
+.input-styles{
+    // width: 300px;
+    // padding: 0.3rem 5px;
+    // border-radius: 5px;
+    // background-color: white;
+    width: 300px;
+        height: 45px;
+        padding: 10px 5px;
+        border: 1px solid #dde1eb;
+        border-radius: 5px;
+        background-color: #ffffff;
+        background-size: cover;
+        font-family: Poppins;
+        font-size: 14px;
+        color: #121212;
+        text-decoration: rgb(18, 18, 18);
+}
+.input-label{
+    width: 291px;
+        height: 28px;
+        font-family: Poppins;
+        font-size: 14px;
+        color: #ffffff;
+        text-decoration: rgb(255, 255, 255);
+    margin-bottom: 0;
+}
+.input-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .input-i{
+        width: 90%;
+    }
+    input{
+        width: 90%;
+        border: none;
+        outline: none;
+        margin-left: 3px;
+
+    }
+    
+}
+.input-icon{
+    color: #c9ced6;
+    svg{
+        width: 20px;
+    }
+}
+.input-icon.active{
+    color: black;
+}
+.input-icon.pointer{
+    cursor: pointer;
+}

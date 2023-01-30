@@ -1,0 +1,146 @@
+@import "../../../../sass/variables";
+
+.slideMenu {
+    background-color: #1a1a40;
+    fill: #1a1a40;
+    box-shadow: 0px 0px 30px rgba(103, 113, 133, 0.15);
+    min-width: 250px;
+}
+.panel {
+    width: 330px;
+    height: 50px;
+    padding: 0px 0px 0px 70px;
+    background-color: #00b4d8;
+    background-size: cover;
+    font-family: $font-family-poppins-bold;
+    font-size: 16px;
+    color: #faeee7;
+    text-decoration: rgb(250, 238, 231);
+}
+.config {
+    width: 330px;
+    height: 50px;
+    padding: 0px 0px 0px 70px;
+    background-color: #00b4d8;
+    background-size: cover;
+    font-family: $font-family-poppins-bold;
+    font-size: 16px;
+    color: #faeee7;
+    text-decoration: rgb(250, 238, 231);
+}
+
+.div-img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.div-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+.div-panel {
+    margin-top: 30px;
+}
+.img1 {
+    width: 35%;
+}
+.img2 {
+    width: 35%;
+}
+.img3 {
+    width: 35%;
+}
+.ul-slide {
+    margin: 0;
+    padding: 0;
+}
+
+.li-slide {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    list-style: none;
+    background-size: cover;
+    font-family: "Poppins-Bold";
+    font-size: 16px;
+    color: #faeee7;
+    text-decoration: rgb(250, 238, 231);
+    padding-left: 20px;
+    gap: 10px;
+    cursor: pointer;
+    div {
+        i {
+            margin-right: 10px;
+        }
+    }
+    &.active{
+        background-color: #00b4d8;
+    }
+}
+.li-slide:hover{
+    background-color: #00b4d8;
+}
+
+
+.dropdown1 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    right: -265px;
+    top: -5px;
+    color: white;
+    background-color: #495371;
+    border-radius: 10px;
+    z-index: 10;
+    width: 260px;
+    ul {
+        padding: 2px;
+    }
+    li:hover{
+        // background-color: #00b4d8;
+        border-radius: 10px;
+    }
+    li a:hover{
+        color: #00FFDD;
+    }
+    li {
+        width: 100%;
+        color: #a1a1c2;
+        font-size: 15px;
+        // padding: 5px 18px;
+        height: 45px;
+        a{
+            width: 100%;
+            padding: 10px 18px;
+            border-radius: 10px;
+            color: #a1a1c2; 
+            svg{
+                margin-right: 5px;
+            } 
+        }
+        
+        
+       
+    }
+    .drop:hover {
+        color: #00FFDD;
+    }
+}
+.drop{
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .active {
+            background-color: #00b4d8;
+            color: white;
+        }
+}
+

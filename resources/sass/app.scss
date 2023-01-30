@@ -1,0 +1,167 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../fonts/Poppins-Bold.ttf.woff") format("woff"),
+        url("../fonts/Poppins-Bold.ttf.svg#Poppins-Bold") format("svg"),
+        url("../fonts/Poppins-Bold.ttf.eot"),
+        url("../fonts/Poppins-Bold.ttf.eot?#iefix") format("embedded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    font-family: $font-family-sans-serif !important;
+}
+
+.main-content-wrap {
+    .content {
+        // margin-left: 20px;
+        // margin-right: 20px;
+        width: auto;
+        min-height: calc(100vh - 190px);
+
+        .appBox {
+            border-radius: 5px;
+            background: #fff;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+            padding: 37px 41px;
+            min-height: 80vh;
+            margin-bottom: 68px;
+        }
+    }
+}
+.show-menu ~ div>div>div.maps{
+    filter: brightness(0.7);
+}
+.pi {
+    font-family: "primeicons" !important;
+}
+
+.p-component {
+    font-family: $font-family-sans-serif !important;
+}
+
+.customDropdownPanel {
+    .p-dropdown-items-wrapper {
+        .p-dropdown-items {
+            .p-dropdown-item {
+                line-height: 35px;
+                padding: 0px 0px 0px 20px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #a4a4a4;
+            }
+        }
+    }
+}
+
+.p-dialog {
+    width: 609px;
+
+    & > .p-dialog-header {
+        display: none;
+    }
+
+    & > .p-dialog-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    & > .p-dialog-footer {
+        text-align: center !important;
+        padding-bottom: 53px !important;
+    }
+
+    .customAlertIcon {
+        width: 112px;
+        height: 112px;
+        background-image: url("/images/assets/alert.svg");
+        display: block;
+        margin-top: 53px;
+        margin-bottom: 26px;
+        transform: rotate(180deg);
+    }
+
+    .p-confirm-dialog-message {
+        width: 384px;
+        text-align: center;
+    }
+
+    .p-dialog-footer {
+        button {
+            padding: 0px;
+        }
+
+        .dialogAcceptButton {
+            width: 205px;
+            line-height: 40px;
+            border-radius: 15px;
+            background-color: #e95320 !important;
+            font-family: $font-family-nunito;
+            font-weight: bold;
+            font-size: 14px;
+            color: #fff;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .dialogCancelButton {
+            margin-right: 30px;
+            width: 205px;
+            line-height: 40px;
+            border: 1px solid #612482;
+            border-radius: 15px;
+            background-color: #fff !important;
+            font-family: $font-family-nunito;
+            font-weight: bold;
+            font-size: 14px;
+            color: #612482 !important;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .p-dialog {
+        width: 98%;
+    }
+}
+
+footer {
+    background-color: rgba(#e95320, 0.1);
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #e95320;
+}
+
+.switch-overlay {
+    display: none !important;
+}
+
+@media (max-width: 600px){
+    .dashboard {
+        height: auto;
+        padding: 0px 15px !important;
+    }
+}
+
+.btnBlack:hover,.btnBack:hover,.btnSave:hover{
+    box-shadow: 2px 2px 7px 4px #00000029
+}
+.swal2-icon {
+    font-size: 20px;
+}
+.app-admin-wrap.sidebar-full .main-content-wrap {
+    width: 100% !important;
+}

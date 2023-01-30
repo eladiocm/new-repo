@@ -1,0 +1,11 @@
+@mixin styledScroll {
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #8c8c8c;
+        border-radius: 4px;
+        height: 30px;
+    }
+}

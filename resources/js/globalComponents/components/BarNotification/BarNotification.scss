@@ -1,0 +1,26 @@
+@import "../../../../sass/variables";
+
+.btnAddEmergencia{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    font-family: $font-family-poppins-bold;
+    font-size: 26px;
+    text-decoration: rgb(255, 255, 255);
+    color: #fff;
+    background-color: #00b4d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+
+}
+.bar-notification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    min-width: 820px;
+    margin-bottom: 30px;
+}

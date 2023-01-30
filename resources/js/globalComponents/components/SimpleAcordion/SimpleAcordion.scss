@@ -1,0 +1,105 @@
+// .MuiAccordion-root{
+//     background-color: red;
+//     color:blue
+// }
+.ac-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+    p{
+        margin-bottom: 40px;
+        font-size: 12px;
+    }
+}
+.ac-title-1{
+
+    display: flex;
+    align-items: baseline;
+    gap:10px;
+    b {
+            font-size: 14px;
+           
+        }
+    
+        span {
+            font-size: 12px;
+        }
+}
+.MuiAccordionSummary-content{
+    color: white;
+    height: 81px;
+    // background-color: blue;
+}
+.MuiPaper-root{
+    background-color: #1a1a40 !important;
+    color: white !important;
+    font-family: Poppins !important;
+    border: 1px solid #2eb086 !important;
+    &:first-child{
+        border-top-left-radius: 23px !important;
+        border-top-right-radius: 23px !important;
+    }
+    &:last-child{
+        border-bottom-left-radius: 23px !important;
+        border-bottom-right-radius: 23px !important;
+    }
+    .MuiSvgIcon-root {
+            color: white;
+            width: 35px;
+            height: 35px;
+        }
+}
+.MuiAccordionDetails-root{
+    background-color: white;
+}
+
+.ac-video{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+        height: 299px;
+        border-radius: 10px;
+        background-color: #21325e;
+        background-size: cover;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    .video-content{
+        
+        width: 230px;
+            height: 289px;
+        
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: lightblue;
+            // z-index: 10px;
+    }
+}
+.video-title{
+    // width: 137px;
+        height: 21px;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: bold;
+        color: #7a7e85;
+        text-decoration: rgb(122, 126, 133);
+        margin-bottom: 22px;
+}
+.video-time{
+// width: 62px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 12px;
+    color: #2f343d;
+    text-decoration: rgb(47, 52, 61);
+    text-align: right;
+}
+.ac-content-video{
+    color: gray;
+    width: 240px;
+    margin-top: 20px;
+    margin-left: 40px;
+}

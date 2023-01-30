@@ -1,0 +1,80 @@
+@import "../../../../sass/variables";
+
+
+.btnBack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b4d8;
+    color: #ffffff;
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    left: -60px;
+    top: 5px;
+    border-radius: 50px;
+    padding-right: 3px;
+}
+.monitorizarCreatePage{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+.monitorizarCreate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.title-section{
+    h4{
+        color: #00b4d8;
+    }
+} 
+
+.bordesInput{
+    .input-styles{
+        border: 1px solid #dde1eb;
+        width: 100%;
+    }
+}
+.cardMapa{
+    background-size: cover;
+    background-image: url('../../../img/assets/Mapa-3.png');
+    height: 224px
+}
+
+.cardInfoEmergencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+}
+.space-column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btnAsignarEmergencia{
+    background-color: #00b4d8;
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: end;
+
+}
+.btnAsigDesp{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
